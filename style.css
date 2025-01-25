@@ -1,8 +1,13 @@
+@font-face {
+    font-family: harsh;
+    src: url(/Urban-Moon-Studio/NeueHaasDisplayMediumItalic.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
+    font-family: harsh;
 }
 
 html, body {
@@ -11,14 +16,15 @@ html, body {
 }
 
 #page1 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #EFEAE3;
     position: relative;
+    padding: 0 2vw;
 }
 
 nav {
-    padding: 2vw 2vw;
+    padding: 2vw 0vw;
     height: 100px;
     width: 100%;
     /* background-color: red; */
@@ -69,4 +75,27 @@ nav {
 
 #nav-part2 h4:hover a{
     color: #fff;
+}
+
+#center {
+    height: 65vh;
+    width: 100%;
+   /* background-color: orange; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 2.5vw;
+    border-bottom: 1px solid #000000bb;
+}
+
+#left  h3{
+    width: 25vw;
+    font-size: 1.8vw;
+    line-height: 2vw;
+}
+
+#center h1 {
+    font-size: 10vw;
+    line-height: 8vw;
+    text-align: right;
 }
