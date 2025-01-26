@@ -9,6 +9,12 @@
     src: url(./NeueHaasDisplayLight.ttf);
 }
 
+@font-face {
+    font-family: harsh;
+    font-weight: 200;
+    src: url(./NeueHaasDisplayRoman.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -230,8 +236,8 @@ nav {
  #page2-bottom {
     height: 80vh;
     width: 100%;
-    background-color: aliceblue;
-    padding: 4vw;
+    /* background-color: #EFEAE3; */
+    padding: 4.5vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -239,7 +245,8 @@ nav {
 
  #page2-bottom h1 {
     font-size: 3.5vw;
-    width: 50%;
+    width: 60%;
+    line-height: 4vw;
  }
 
  #bottom-part2 {
@@ -253,4 +260,6 @@ nav {
  
  #bottom-part2 p {
     font-weight: 100;
+    margin-top: 2vw;
+
  }
