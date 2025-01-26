@@ -1,6 +1,12 @@
 @font-face {
     font-family: harsh;
-    src: url(/Urban-Moon-Studio/NeueHaasDisplayMediumItalic.ttf);
+    src: url(./NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+    font-family: harsh;
+    font-weight: 100;
+    src: url(./NeueHaasDisplayLight.ttf);
 }
 
 * {
@@ -172,4 +178,79 @@ nav {
     to {
         transform: translate(-20%, 30%);
     }
+ }
+
+ #page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #EFEAE3;
+    padding: 8vw 0;
+ }
+
+.con{
+   white-space:nowrap;
+   display: inline-block;
+   animation: move 10s linear;
+   animation-iteration-count: infinite;
+}
+
+#moving-text {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+#moving-text::-webkit-scrollbar{
+    display: none;
+}
+
+ #moving-text h1{
+    font-size: 9vw;
+    display: inline-block;
+    /* background-color: lightblue; */
+ }
+
+ #gola {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #FE320A;
+    margin: 1vw 2vw;
+ }
+
+ @keyframes move {
+    from{
+        transform: translatex(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+ }
+
+ #page2-bottom {
+    height: 80vh;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ #page2-bottom h1 {
+    font-size: 3.5vw;
+    width: 50%;
+ }
+
+ #bottom-part2 {
+    width: 20%;
+ }
+
+ #bottom-part2 img {
+    width: 100%;
+    border-radius: 15px;
+ }
+ 
+ #bottom-part2 p {
+    font-weight: 100;
  }
