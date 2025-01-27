@@ -146,7 +146,7 @@ nav {
     height: 30vw;
     width: 30vw;
     border-radius: 50%;
-    filter: blur(25px);
+    filter: blur(20px);
     position: absolute;
     animation-name: anime2;
     animation-duration: 5s;
@@ -160,7 +160,7 @@ nav {
     height: 30vw;
     width: 30vw;
     border-radius: 50%;
-    filter: blur(25px);
+    filter: blur(20px);
     position: absolute;
     animation: anime1 3s linear;
     animation-direction: alternate;
@@ -191,6 +191,7 @@ nav {
     width: 100%;
     background-color: #EFEAE3;
     padding: 8vw 0;
+    position: relative;
  }
 
 .con{
@@ -241,6 +242,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    z-index: 9;
  }
 
  #page2-bottom h1 {
@@ -263,3 +266,35 @@ nav {
     margin-top: 2vw;
 
  }
+
+ #page2 #gooey {
+    height: 32vw;
+    width: 32vw;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(to top,#FE320A,#fe5b0a);
+    top: 58%;
+    left: 25%;
+    filter: blur(20px);
+    animation: gooey 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+ }
+
+ @keyframes gooey {
+    from{
+        filter: blur(20px);
+        transform: translate(10%,-10%) skew(0);
+    }
+    to{
+        filter: blur(30px);
+        transform: translate(-10%,10%) skew(-12deg);
+    }
+ }
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #EFEAE3;
+}
