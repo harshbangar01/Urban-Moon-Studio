@@ -6,18 +6,23 @@
     <title>Urban Moon Studio</title>
     <link rel="shortcut icon" href="./wolf moon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div id="fixed-image"></div>
+
     <div id="main">
         <div id="page1">
             <nav>
               <img src="./main logo.png" alt="Urban Moon Studio" width="160px" height="119px">  
                 <div id="nav-part2">
-                  <h4><a href="#">WORK</a></h4>
-                  <h4><a href="#">STUDIO</a></h4>
-                  <h4><a href="#">CONTACT</a></h4>
+                  <h4><a href="#">Work</a></h4>
+                  <h4><a href="#">Studio</a></h4>
+                  <h4><a href="#">Contact</a></h4>
                 </div>
+                <h3>Minu</h3>
             </nav>
             <div id="center">
                 <div id="left">
@@ -82,49 +87,120 @@
        </div>
         </div>
         <div id="page3">
-            <div class="elem">
-                <div class="overlay"></div>
-                <h2>Makers Studio HOI</h2>
-            </div>
-
-            <div class="elem">
-                <div class="overlay"></div>
-                <h2>50th Anniversary</h2>
-            </div>
-
-            <div class="elem">
-                <div class="overlay"></div>
-                <h2>YFW Popup</h2>
-            </div>
-
-            <div class="elem">
-                <div class="overlay"></div>
-                <h2>Air Force 1 2021</h2>
-            </div>
-
-            <div class="elem">
-                <div class="overlay"></div>
-                <h2>SOHO NYC</h2>
-            </div>
-
-            <div class="elem">
-                <div class="overlay"></div>
-                <h2>SOHO 2023</h2>
-            </div>
-
-            <div class="elem">
-                <div class="overlay"></div>
-                <h2>Play New Kidivision</h2>
+            <div id="elem-container">
+                <div class="elem"
+                data-image="https://images.unsplash.com/photo-1603425013520-e0b30e6e37dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U1RVRElPfGVufDB8fDB8fHww">
+                    <div class="overlay"></div>
+                    <h2>Makers Studio HOI</h2>
+                </div>
+    
+                <div class="elem"
+                data-image="https://images.unsplash.com/photo-1634618845294-78a3239fd4d5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="overlay"></div>
+                    <h2>50th Anniversary</h2>
+                </div>
+    
+                <div class="elem"
+                data-image="https://images.unsplash.com/photo-1536431311719-398b6704d4cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TkFUVVJFfGVufDB8fDB8fHww">
+                    <div class="overlay"></div>
+                    <h2>YFW Popup</h2>
+                </div>
+    
+                <div class="elem"
+                data-image="https://images.unsplash.com/photo-1580894529695-b5b909d06262?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8">
+                    <div class="overlay"></div>
+                    <h2>Air Force 1 2021</h2>
+                </div>
+    
+                <div class="elem"
+                data-image="https://media.istockphoto.com/id/1628010210/photo/empty-streets-and-sidewalks-of-soho-are-eerily-quiet-during-the-2020-coronavirus-pandemic.webp?a=1&b=1&s=612x612&w=0&k=20&c=0rpWMAfLDrlaWVtG9SnbynqoUTZPJyT2USqYEj-NdIE=">
+                    <div class="overlay"></div>
+                    <h2>SOHO NYC</h2>
+                </div>
+    
+                <div class="elem"
+                data-image="https://images.unsplash.com/photo-1617144519956-bba853571334?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZpZmF8ZW58MHx8MHx8fDA%3D">
+                    <div class="overlay"></div>
+                    <h2>FIFA 2023</h2>
+                </div>
+    
+                <div class="elem"
+                data-image="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8a2lkfGVufDB8fDB8fHww">
+                    <div class="overlay"></div>
+                    <h2>Play New Kidivision</h2>
+                </div>
             </div>
         </div>
+        <div id="page4">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                    <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15fd_Arc%E2%80%99teryx.svg">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.iendis accusamus quis minima ducimus voluptatibus iusto tenetur quisquam ipsa velit eligendi maiores.
+                        Volu</h4>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15fe_Hunter.svg">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, mollitia eum ab recusandae laboriosam illum debitis adipisci reiciendis accusamus quis minima ducimus voluptatibus iusto tenetur quisquam ipsa velit eligendi maiores.
+                    Volu</h4>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1601_MediaLink.svg">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, mollitia eum ab recusandae laboriosam illum debitis adipisci reiciendis accusamus quis minima ducimus voluptatibus iusto tenetur quisquam ipsa velit eligendi maiores.
+                        Volu</h4>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1600_Converse.svg">
+                     <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, mollitia eum ab recusandae laboriosam illum debitis adipisci reiciendis accusamus quis minima ducimus voluptatibus iusto tenetur quisquam ipsa velit eligendi maiores.
+                        Volu</h4>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b15fe_Hunter.svg">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, mollitia eum ab recusandae laboriosam illum debitis adipisci reiciendis accusamus quis minima ducimus voluptatibus iusto tenetur quisquam ipsa velit eligendi maiores.
+                        Volu</h4>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1601_MediaLink.svg">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, mollitia eum ab recusandae laboriosam illum debitis adipisci reiciendis accusamus quis minima ducimus voluptatibus iusto tenetur quisquam ipsa velit eligendi maiores.
+                        Volu</h4>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15d4/64d3dd9edfb41666c35b1600_Converse.svg">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, mollitia eum ab recusandae laboriosam illum debitis adipisci reiciendis accusamus quis minima ducimus voluptatibus iusto tenetur quisquam ipsa velit eligendi maiores.
+                        Volu</h4>
+                  </div>
+
+                </div>
+              </div>
+        </div>
+        <div id="page5">
+
+        </div>
+        
+    <div id="full-scr">
+        <div id="full-div1">
+            
+        </div>
     </div>
+    </div>
+
+    <div id="footer">
+        <h1>UrbanMoon</h1>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
 
 </body>
 </html>
