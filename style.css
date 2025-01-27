@@ -332,7 +332,7 @@ nav h3 {
 .elem .overlay {
     height: 100%;
     width: 100%;
-    background-color: orange;
+    background-color: #fe330ad2;
     position: absolute;
     left: 0;
     top: -100%;
