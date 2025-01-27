@@ -294,7 +294,40 @@ nav {
  }
 
 #page3{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #EFEAE3;
+    padding: 4vw 0;
+}
+.elem {
+    height: 150px;
+    width: 100%;
+    /* background-color: orange; */
+    /* border-top: 1px solid #000 ; */
+    border-bottom: 1px solid #414141;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+.elem h2 {
+    font-size: 3vw;
+    position: relative;
+    z-index: 9;
+}
+
+.elem .overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #fe330ac2;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    transition: all ease 0.25s;
+}
+
+.elem:hover .overlay{
+    top: 0;
 }
