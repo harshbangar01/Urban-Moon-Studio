@@ -100,6 +100,10 @@ nav h3 {
     display: none;
 }
 
+i {
+    padding-right: 15px;
+}
+
 #center {
     height: 65vh;
     width: 100%;
