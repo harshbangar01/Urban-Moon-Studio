@@ -627,4 +627,9 @@ i {
     top: 100px;
     
     }
+
+    #fixed-image {
+        height: 62vw;
+    width: 45vw;
+    }
 }
