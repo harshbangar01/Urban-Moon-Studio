@@ -615,7 +615,13 @@ i {
 
     #full-div1  h1{
         font-size: 4vw;
+
     }
+
+    #full-div1 {
+        text-align: center;
+    }
+        
 
 
 }
