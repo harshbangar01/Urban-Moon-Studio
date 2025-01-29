@@ -440,6 +440,13 @@ i {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+#full-div1 h1 {
+          font-size: 4vw;
+        text-align: center;
+    position: relative;
+    top: 100px; 
+}
 @media (max-width:600px) {
   
     
