@@ -630,6 +630,10 @@ i {
 
     #fixed-image {
         height: 62vw;
-    width: 45vw;
+        width: 45vw;
+        height: 62vw;
+        width: 45vw;
     }
+
+    
 }
