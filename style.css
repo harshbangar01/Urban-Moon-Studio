@@ -377,6 +377,7 @@ i {
     /* text-align: center;
     font-size: 18px; */
     /* background: #fff; */
+      cursor: grab;
     width: 30%;
     /* display: flex; */
     border-left: 1px solid #424141;
